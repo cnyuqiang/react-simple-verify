@@ -164,7 +164,7 @@
                 React.createElement("div", { className: "verify-tips" }, this.props.tips),
                 React.createElement("div", { style: this.slideBoxStyle, className: "verify-box" },
                     React.createElement("div", { style: slideStyle, className: "veriry-slide" })),
-                React.createElement("div", { className: "verify-bar", onMouseEnter: this.mouseenter.bind(this), onTouchStart: this.mouseenter.bind(this), onMouseLeave: this.mouseleave.bind(this), onTouchEnd: this.mouseleave.bind(this), onMouseDown: this.mousedown.bind(this), onTouchMove: this.mousedown.bind(this) },
+                React.createElement("div", { className: "verify-bar", onMouseEnter: this.mouseenter.bind(this), onTouchStart: this.mouseenter.bind(this), onMouseLeave: this.mouseleave.bind(this), onTouchEnd: this.mouseleave.bind(this), onMouseDown: this.mousedown.bind(this), onTouchMove: this.mousemove.bind(this) },
                     React.createElement("div", { style: barStyle, className: "icon" })),
                 React.createElement("div", { style: textStyle, className: "verify-success-tips" },
                     React.createElement("span", { style: this.iconStyle }),
